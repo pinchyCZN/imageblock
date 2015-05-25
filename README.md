@@ -1,3 +1,3 @@
-- Updated to work with seamonkey
+- Updated to work with seamonkey (tested in 2.29)
 - Rerenders from cache when toggling images
 - Updated overlay to put in toolbar palette so button can be moved
