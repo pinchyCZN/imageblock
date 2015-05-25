@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>imageblock@hemantvats.com</em:id>
+    <em:name>ImageBlock</em:name>
+    <em:version>2.1</em:version>
+    <em:creator>Hemant Vats</em:creator>
+    <em:homepageURL>http://hemantvats.com/imageblock</em:homepageURL>
+    <em:iconURL>chrome://imageblock/content/imageblock.png</em:iconURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>3.6.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+	<em:targetApplication>
+		<!-- SeaMonkey -->
+		<Description>
+			<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+			<em:minVersion>2.0</em:minVersion>
+			<em:maxVersion>2.6.*</em:maxVersion>
+		</Description>
+	</em:targetApplication>	
+  </Description>
+</RDF>
